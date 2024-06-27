@@ -1,0 +1,189 @@
+/* * {
+    box-sizing: border-box;
+  } */
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("img/mockup-bakery-bread-pastry.jpg");
+    color: #49130c;
+  }
+  
+  .navbar {
+    min-height: 80px;
+    background-color: #fbdcad;
+    border-radius: 0px;
+  }
+  
+  .navbar-brand {
+    padding: 0px;
+    height: 80px;
+    background-color: #fbdcad;
+    margin-right: 30px;
+  }
+  
+  .navbar-toggle {
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+      color: #49130c;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+    }
+  }
+  
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a { background-color: #e6637f;}
+  
+  .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus { background-color: #F2D4A7}
+  
+  
+  .navbar-brand>img
+  {height: 80px;}
+  
+  .panel {
+    position: relative;
+    left: 0;
+  }
+
+
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+/* * {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+} */
+
+/* body {
+  max-width: 100%;
+  height: 100vh;
+} */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+ .contact_data {
+  background: #fff;
+  height: 300px;
+  width: 600px;
+  border-radius: 02px;
+  border-top: 04px solid #b48b34;
+  margin: 0 0px;
+  padding-top: 10px;
+}
+
+.container .contact_data form {
+  padding: 0 1rem;
+}
+
+.container .contact_data form input,
+textarea {
+  width: 95%;
+  margin: 05px 0 0 10px;
+  padding: 07px 10px;
+  border: 1px solid #d99a5f;
+  font-size: 1rem;
+  border-radius: 05px;
+}
+
+.container .contact_data h2 {
+  margin: 1.5rem;
+  border-bottom: 0.2rem #be8d50 solid;
+  width: 25%;
+}
+
+.container .contact_data label {
+  display: block;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.container .contact_data button {
+  margin: 20px 10px!important;
+  border: none !important;
+  /* padding: 10px 20px; */
+  background: #c0803f !important;
+  font-size: 1rem !important;
+  border-radius: 05px !important;
+  cursor: pointer !important;
+  transition: all 0.3s !important;
+}
+
+.container .contact_data button:hover {
+  background: #cbced0;
+  transition: 0.3s;
+  color: #caa41c;
+}
+
+.container .contact_data2 {
+  background: #fff;
+  border-radius: 02px;
+  border-top: 04px solid #d5904e;
+  width: 400px;
+  margin: 0 10px;
+}
+
+.container .contact_data2 ul {
+  list-style: none;
+}
+
+.container .contact_data2 ul li {
+  margin: 1.5rem 1rem;
+}
+
+.container .contact_data2 ul li i {
+  font-size: 1.4rem;
+  color: #47b2e4;
+}
+
+.container .contact_data2 ul li strong {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.container .contact_data2 ul li p {
+  font-size: 14px;
+  margin-left: 35px;
+}
+
+.container .contact_data2 .map iframe {
+  width: 90%;
+  height: 280px;
+  margin: 0 1rem;
+}
+
+@media (max-width: 1037px) {
+  .container .contact_data,
+  .contact_data2 {
+    width: 80%;
+    margin: 10px 0px;
+  }
+  .container .contact_data h2 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container .contact_data2 {
+    width: 75%;
+    margin: 10px 0px;
+  }
+  .container .contact_data h2 {
+    width: 50%;
+  }
+}
